@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <com.example.mb_0417_test.GameView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         />
+    
+    <ImageView
+	    android:id="@+id/ImageView05"
+	    android:layout_width="120dp"
+	    android:layout_height="120dp"
+	    android:src="@drawable/button05"
+	    android:layout_gravity="bottom|right"
+	    android:layout_marginBottom="20dp"
+	    android:layout_marginRight="20dp"
+	    ></ImageView>
+
+</FrameLayout>
